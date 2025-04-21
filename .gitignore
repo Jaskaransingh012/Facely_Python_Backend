@@ -1,0 +1,34 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+myenv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables (if any)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore compiled files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
